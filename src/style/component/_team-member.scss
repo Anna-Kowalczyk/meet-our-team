@@ -1,0 +1,31 @@
+.team-member {
+  padding-top: 15px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  &__title {
+    font-size: 16px;
+    line-height: 1.5;
+    color: $color-violet;
+    @media screen and (min-width: 992px) {
+      font-size: 20px;
+    }
+  }
+  &__desc {
+    font-size: 12px;
+    line-height: 1.7;
+    padding-top: 10px;
+    color: $color-blue;
+    font-weight: 300;
+    @media screen and (min-width: 992px) {
+      font-size: 14px;
+    }
+  }
+  &__city {
+    font-size: 12px;
+    line-height: 1.7;
+    font-weight: 300;
+    @media screen and (min-width: 992px) {
+      font-size: 14px;
+    }
+  }
+}

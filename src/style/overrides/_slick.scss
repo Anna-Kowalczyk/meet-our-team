@@ -1,0 +1,26 @@
+.slick-arrow {
+  position: absolute;
+  color: transparent;
+  background: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  outline: none;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 20px;
+  @media screen and (min-width: 576px) {
+    height: 40px;
+  }
+}
+
+.slick-next {
+  right: 10px;
+  background-image: url(./assets/angle-right.png);
+
+}
+.slick-prev {
+  left: 10px;
+  z-index: 1;
+  background-image: url(./assets/angle-left.png);
+}
